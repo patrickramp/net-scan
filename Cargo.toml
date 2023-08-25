@@ -1,5 +1,5 @@
 [package]
-name = "net_scanner"
+name = "net_scan"
 version = "1.17.0"
 edition = "2021"
 
