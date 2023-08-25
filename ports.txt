@@ -1,0 +1,163 @@
+1=TCP Port Service Multiplexer
+5=Remote Job Entry
+7=Echo Protocol
+9=Discard Protocol
+10=Wake-on-LAN
+11=Active Users (systat service)
+13=Daytime Protocol
+17=Quote of the Day
+18=Message Send Protocol
+19=Character Generator Protocol
+20=data transfer (FTP)
+21=control (FTP)
+22=Secure Shell (SSH)
+23=Telnet unencrypted text communications
+25=Simple Mail Transfer Protocol SMTP
+29=msg-icp (MSG ICP)
+31=msg-auth (MSG Authentication)
+33=dsp (Display Support Protocol)
+37=Time Protocol
+38=rap (Route Access Protocol)
+38=rlp (Resource Location Protocol)
+42=Host Name Server Protocol
+43=WHOIS
+49=TACACS
+50=Remote Mail Checking Protocol
+52=Xerox Network Systems (XNS)
+53=Domain Name System (DNS)
+54=Xerox Network Systems (XNS)
+56=Xerox Network Systems (XNS)
+58=Xerox Network Systems (XNS)
+63=whoispp (whois++)
+67=Bootstrap Protocol (BOOTP) / DHCP
+68=Bootstrap Protocol (BOOTP) / DHCP
+69=Trivial File Transfer Protocol (TFTP)
+70=Gopher protocol
+79=Finger protocol
+80=Hypertext Transfer Protocol (HTTP)
+82=xfer (XFER Utility)
+83=Common Trace Facility
+88=Kerberos authentication system
+90=dnsix (DNSIX Security Attribute Token Map)
+97=Swift Remote Virtual File Protocol)
+107=Remote User Telnet Service (RTelnet)
+108=IBM Systems Network Architecture (SNA) gateway access server
+109=Post Office Protocol, version 2 (POP2)
+110=Post Office Protocol, version 3 (POP3)
+111=
+113=Ident/auth service over TCP
+115=Simple File Transfer Protocol
+119=Network News Transfer Protocol (NNTP)
+123=Network Time Protocol (NTP)
+135=
+137=NetBIOS
+138=
+139=
+143=Internet Message Access Protocol (IMAP)
+161=Simple Network Management Protocol (SNMP)
+162=Simple Network Management Protocol Trap (SNMPTRAP)
+177=X Display Manager Control Protocol (XDMCP)
+179=
+201=
+264=
+389=
+401=Uninterruptible power supply (UPS)
+427=Service Location Protocol (SLP)
+433=NNTP part of Network News Transfer Protocol
+434=Mobile IP Agent (RFC 5944)
+443=Hypertext Transfer Protocol Secure (HTTPS)
+444=Simple Network Paging Protocol (SNPP)
+445=Microsoft (Directory Services) Active Directory, Windows Shares
+464=Kerberos Change/Set password
+479=
+500=Internet Key Exchange (ISAKMP)
+512=Remote Process Execution (FCP)
+513=
+514=
+515=
+520=
+546=
+547=
+554=Real Time Streaming Protocol (RTSP)
+587=Email message submission (SMTP)
+593=
+631=Common Unix/Internet Printing Protocol (CUPS) (IPP)
+636=Lightweight Directory Access Protocol TLS/SSL (LDAPS)
+646=
+657=IBM RMC (Remote monitoring and Control)
+660=macOS Server administration
+666=Doom, airserv-ng, aircrack-ng's server
+674=Application Configuration Access Protocol (ACAP)
+688=REALM-RUSD (ApplianceWare Server Appliance Management Protocol)
+690=Velneo Application Transfer Protocol (VATP)
+691=MS Exchange Routing
+694=Linux-HA high-availability heartbeat
+847=DHCP Failover protocol
+848=Group Domain Of Interpretation (GDOI) protocol
+853=DNS over TLS
+873=
+989=FTPS Protocol (data), FTP over TLS/SSL
+990=FTPS Protocol (control), FTP over TLS/SSL
+991=Netnews Administration System (NAS)
+992=Telnet protocol over TLS/SSL
+993=Internet Message Access Protocol over TLS/SSL (IMAPS)
+994=TLS/SSL Secure (IRCS)
+995=Post Office Protocol 3 over TLS/SSL (POP3S)
+1337
+1194=OpenVPN
+1433
+1434
+1701
+1723
+1725
+1741
+1812
+1813
+1985
+2000
+2002
+2049
+2082
+2083
+2100
+2087
+2145
+2222
+2049
+3128
+3268
+3269
+3260
+3306
+3389
+3478
+3479
+3689
+3480
+3481
+4333
+4500
+4567
+5000
+5001
+5060
+5355=LLMNR (Link-Local Multicast Name Resolution)
+4332
+5800
+5900
+5985
+6000
+6001
+6514
+6665
+6669
+6881
+8000
+8008
+8080
+8081
+8089
+8443
+9080
+10000=VOIP
+11371=OpenPGP
