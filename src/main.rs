@@ -23,41 +23,36 @@ pub const MENU: &str = "
 pub const BREAK: &str = "
 ===============================================================";
 
-pub const EXIT: &str = "Thank you for using Net-Scan! Goodbye.\n";
-
 // Entry point.
 fn main() {
     println!("{}", SPLASH);
-    println!("{}", MENU);
-    pick();
-    println!("{}", EXIT);
+    loop {
+        println!("{}", MENU);
+        pick();
+    }
 }
 
 // Menu Picker.
 pub fn pick() {
     let mut option = String::new();
     io::stdin().read_line(&mut option).unwrap();
-    let option = option.trim().parse::<u8>();
-    match option {
+    match option.trim().parse::<u8>() {
         Ok(1) => {
             // Ping-sweep IPv4 subnet for devices.
             subnet_scanner();
-            println!("{}", MENU);
-            pick();
         }
         Ok(2) => {
             // Scan IPv4 address for open ports.
             port_scanner();
-            println!("{}", MENU);
-            pick();
         }
         Ok(3) => {
             // Scan IPv4 address for open ports.
             spec_scanner();
-            println!("{}", MENU);
-            pick();
         }
-        Ok(4) => {}
+        Ok(4) => {
+            println!("Thank you for using Net-Scan! Goodbye.");
+            std::process::exit(0);
+        }
         Ok(42) => {
             println!(
                 "CONGRATULATIONS, You have found the answer to the the greatest question in the universe.
@@ -81,7 +76,7 @@ The answer to the meaning of life, the universe, and everything!.. But what was 
 }
 
 // Use ping-sweep to detect hosts on subnet.
-pub fn subnet_scanner() {
+fn subnet_scanner() {
     // Get target subnet from user.
     println!("Enter network address: (ie. 192.168.1.  )");
     let mut subnet = String::new();
@@ -103,7 +98,7 @@ pub fn subnet_scanner() {
             // Start scan timer.
             let start_time = Instant::now();
 
-            // Collect Vec. of network devices.
+            // Collect Vec. of network devices from ip_scan..
             let mut open_hosts: Vec<IpAddr> = ip_scan(&mut subnet);
             open_hosts.sort_unstable();
 
