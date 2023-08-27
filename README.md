@@ -12,6 +12,7 @@ Feel free to update or add port#=description entries to meet your needs.
 
 
 ### *** CAUTION *** 
-Ony use this application on networks that you own or have written permission to scan. 
-This application does not in any way mask the origin of the scan and may be interpreted 
-as a prelude to a cyberattack. 
+ONLY use this application on networks that you own or have written permission to scan. 
+This application does not in any way mask the origin of the scan and this activity may be 
+interpreted as a cyberattack and/or have legal repercussions. 
+I am not responsible for how you use this tool or the consequences resulting from its use. 
