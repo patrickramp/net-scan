@@ -2,6 +2,8 @@
 
 ## Welcome to my little project.
 
+![image](https://github.com/patrickramp/net-scan/assets/142554235/a2959dbc-ebb4-4ad8-bc68-a7306fc64198)
+
 Net-Scan is a simple, fast, lightweight, threaded IP4 network scanner written in Rust.
 It uses a simple command line interface and can do a ping sweep to detect devices on a network, 
 scan a single host for open ports 
