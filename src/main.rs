@@ -238,10 +238,10 @@ fn spec_scanner() {
             // Check port range is valid.
             if end_port > 65535 {
                 println!("ERROR: Not a valid port number! Must be less than 65535!\n");
-                port_scanner();
+                spec_scanner();
             } else if start_port > end_port {
                 println!("ERROR: Lowest port must smaller than highest port!\n");
-                port_scanner();
+                spec_scanner();
             } else {
                 // Set number of threads for scan, default is 8 per core.
                 let threads: usize = 8 * num_cpus::get();

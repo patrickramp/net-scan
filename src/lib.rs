@@ -74,7 +74,7 @@ pub fn port_scan(target_ip: &String, start_port: u32, end_port: u32, threads: us
     // Close the channel so that the receiver can finish its work.
     drop(tx);
 
-    // Retrieve ports from scan, create vector.
+    // Retrieve ports from scan as vector.
     return rx.into_iter().collect::<Vec<u32>>();
 }
 
@@ -91,9 +91,10 @@ pub fn port_map(portnum: u32) {
     // Read lines from txt file.
     for line in reader.lines() {
         let line = line.expect("Failed to read line");
+        // Separate lines by "=" symbol.
         let parts: Vec<&str> = line.split("=").collect();
 
-        // Separate lines by "=" symbol. Insert results to hashmap.
+        // Insert results to hashmap.
         if parts.len() == 2 {
             let key = parts[0].parse::<u32>().expect("Failed to parse key");
             let value = parts[1].to_string();
