@@ -1,4 +1,4 @@
-# Net-Scan
+![image](https://github.com/patrickramp/net-scan/assets/142554235/a2959dbc-ebb4-4ad8-bc68-a7306fc64198)
 
 ## Welcome to my little project.
 
