@@ -1,15 +1,11 @@
 [package]
-name = "net_scan"
+name = "net-scan"
 version = "1.17.0"
 edition = "2021"
 
-[lib]
-name = "netlib"
-path = "src/lib.rs"
-
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-threadpool = "1.7.0"
-num_cpus = "1.15.0"
-ping = "0.4.1"
+threadpool = "1.8.1"
+num_cpus = "1.16.0"
+ping = "0.5.1"
 format = "0.2.4"

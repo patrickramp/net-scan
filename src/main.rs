@@ -1,8 +1,9 @@
 // Prelude, load libraries.
-use netlib::*;
+use net_scan::*;
 use std::io;
 use std::net::{IpAddr, Ipv4Addr};
 use std::time::Instant;
+
 
 const SPLASH: &str = "
   ███╗   ██╗███████╗████████╗     ███████╗ ██████╗ █████╗ ███╗   ██╗
